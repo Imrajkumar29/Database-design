@@ -1,0 +1,18 @@
+Database 
+A Database stores data.
+provdies orgatanisational structure for data
+Mechanism to query, creating, modifying, delete date.(CRUD)
+
+Components of Database systems are Users->,Database Applications(Website)->, DBMS->, Database.
+Databse contains user data ,Metadata, Indexes /other overhead data and Application metadata.
+Metadata are data describing the structure of the data in the database.
+
+Relational database - stores data in tables. 
+Columns - represent different attributes of the entity
+rows - represent different instances of the entity
+
+Entity - person, order ,customer (i.e) anything that we store data about.
+Attribute - character , hair colour, name , dress style etc
+
+Referential Integrity Constraint - helps to keep the data consistent. 
+consider dept(id -15,16,17) and employee tables. If we try to add an employee with dept id 18 in employee table it will not allow.
