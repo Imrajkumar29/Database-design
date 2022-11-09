@@ -15,11 +15,16 @@ Metadata are data describing the structure of the data in the database.
 DBMS -Software tool to manage data.
 
 Relational database - stores data in tables. 
-Columns - represent different attributes of the entity
-rows - represent different instances of the entity
+Columns/Fields/Attributes - represent different attributes of the entity
+rows/Records/Tuples - represent different instances of the entity
 
 Entity - person, order ,customer (i.e) anything that we store data about.
 Attribute - character , hair colour, name , dress style etc
 
 Referential Integrity Constraint - helps to keep the data consistent. 
 consider dept(id -15,16,17) and employee tables. If we try to add an employee with dept id 18 in employee table it will not allow.
+
+Keys 
+Super Key - Attribute/Set of attribute used to uniquely identify a record. 
+maximum superkeys - for a table with 5 columns -> 2 (power^ n) -1 = 32 -1 =31 
+for 4 columns -> 4C1+4C2+4C3+4C4 = 4+6+4+1= 15 which is the same when calculated using 2 (power^ n)-1 formula.
