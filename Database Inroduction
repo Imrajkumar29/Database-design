@@ -28,3 +28,19 @@ Keys
 Super Key - Attribute/Set of attribute used to uniquely identify a record. 
 maximum superkeys - for a table with 5 columns -> 2 (power^ n) -1 = 32 -1 =31 
 for 4 columns -> 4C1+4C2+4C3+4C4 = 4+6+4+1= 15 which is the same when calculated using 2 (power^ n)-1 formula.
+
+Candidate Key -> Super key whose proper subset is not a super key.
+proper subset-> S1(1,2,3) , S2(1,2) For S2 to be proper subset of S1 it should satisfy 2 criteria
+(1)S2 to be a subset(C_) of S1 (2)S1 not a subset of S2.
+From the below table it can be deduced that super keys are A,AB,AC,ABC,BC.
+It can be seen that super keys AB,AC are proper subset of super key ABC. Hence ABC cannot be a candidate key.
+Likewise super key A is a proper subset of super keys AB and AC. Hence AB and AC cannot be candidate keys.
+In this case A and BC are the two candidate keys.
+Consider R(A,B,C,D) with values 
+1 1 5 1
+2 1 7 1
+3 1 7 1
+4 2 7 1
+5 2 5 1
+6 2 5 2
+
