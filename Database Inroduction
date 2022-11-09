@@ -1,11 +1,18 @@
 Database 
-A Database stores data.
+A Database stores data. Collection of Related Data that represent some Real world entities.
 provdies orgatanisational structure for data
 Mechanism to query, creating, modifying, delete date.(CRUD)
+
+Issues with traditional file systems - redundancy, inconsistency
+
+Data - Facts that can be recorded. eg.Texts, Numbers,Videos,Images,Audio
+Information - Meaningful/Processed Data
 
 Components of Database systems are Users->,Database Applications(Website)->, DBMS->, Database.
 Databse contains user data ,Metadata, Indexes /other overhead data and Application metadata.
 Metadata are data describing the structure of the data in the database.
+
+DBMS -Software tool to manage data.
 
 Relational database - stores data in tables. 
 Columns - represent different attributes of the entity
