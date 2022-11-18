@@ -1,7 +1,7 @@
 Database 
 A Database stores data. Collection of Related Data that represent some Real world entities.
 provdies orgatanisational structure for data
-Mechanism to query, creating, modifying, delete date.(CRUD)
+Mechanism to query, creating, modifying, delete data.(CRUD)
 
 Issues with traditional file systems - redundancy, inconsistency
 
@@ -13,6 +13,14 @@ Databse contains user data ,Metadata, Indexes /other overhead data and Applicati
 Metadata are data describing the structure of the data in the database.
 
 DBMS -Software tool to manage data.
+A database management system (DBMS) is software that controls the storage, organization, and retrieval of data. Typically, a DBMS has the following elements:
+Kernel code
+  This code manages memory and storage for the DBMS.
+Repository of metadata
+  This repository is usually called a data dictionary.
+Query language
+  This language enables applications to access the data
+
 
 Relational database - stores data in tables. 
 Columns/Fields/Attributes - represent different attributes of the entity
